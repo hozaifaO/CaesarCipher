@@ -27,7 +27,14 @@ public class CaesarCipher {
     return sb.toString();
   }
   public void run(String arg){
+    boolean validInput=false;
+    if(arg.matches("\\d+")){// checks if input only contains digits
+       validInput=true;
+       System.out.println("Invalid Input letters only");
+      }
+    if(validInput == false) {
     String encrypted_messege = encrypt(arg.toUpperCase());
     System.out.println(encrypted_messege);
+    }
   }
 }
