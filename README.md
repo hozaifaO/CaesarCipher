@@ -3,6 +3,7 @@
 
 This is a Java implementation of the famous Creaser Cypher using the Object Oriented peridium that is native with java.
 
+## What i leanred in this project.
 1.	Object Oriented Java.
 2.	Creating mathematical java algorithms. 
 3.	Working with pseudocode before implementation.
